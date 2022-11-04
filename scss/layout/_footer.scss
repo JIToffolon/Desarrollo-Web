@@ -1,0 +1,109 @@
+/** Footer Mobile**/
+@media only screen and (min-width:0px) and (max-width:767px){
+    footer {
+        display: grid;
+        grid-template-areas:
+            "logo span redes"
+        ;
+        grid-template-columns: 20% 60% 20%;
+        justify-items: center;
+        align-items: center;
+        background-color:$background-header-footer;
+        width: 100%;
+        span {
+            grid-area: span;
+            font-size: 10px;
+            font-weight: bold;
+            color: black;
+    
+        }
+        div {
+            grid-area: redes;
+            gap: 15px;
+            .logo-redes {
+                max-width: 10px;
+            }
+    
+        }
+        .logo-hotel {
+
+            grid-area: logo;
+            height: 45px;
+
+        }
+    }
+}
+/** Footer Tablet**/
+@media screen and (min-width: 768px){
+    footer {
+        display: grid;
+        grid-template-areas:
+            "logo span redes"
+        ;
+        grid-template-columns: 20% 60% 20%;
+        justify-items: center;
+        align-items: center;
+        background-color:$background-header-footer;
+        width: 100%;
+        span {
+            grid-area: span;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+    
+        }
+        div {
+
+            grid-area: redes;
+            gap: 15px;
+            .logo-redes {
+                max-width: 20px;
+            }
+        }
+        .logo-hotel {
+            grid-area: logo;
+            height: 85px;
+            padding-left: 15px;
+        }
+
+    }
+}
+/** Footer Desktop**/
+@media screen and (min-width:1024px){
+    footer {
+
+        display: grid;
+        grid-template-areas:
+            "logo span redes"
+        ;
+        grid-template-columns: 20% 60% 20%;
+        justify-items: center;
+        align-items: center;
+        background-color: $background-header-footer;
+        height: 100%;
+        span {
+            grid-area: span;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+    
+        }
+        div{
+            grid-area: redes;
+            a {
+                padding: 15px;
+                .logo-redes {
+
+                    max-width: 25px;
+            
+                }
+            }
+        }
+        .logo-hotel {
+            grid-area: logo;
+            width: 145px;
+            height: 125px;
+        }
+
+    }
+}

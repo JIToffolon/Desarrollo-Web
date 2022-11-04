@@ -1,0 +1,87 @@
+@mixin boton {
+
+    background-color: #c247125c;
+    height: 55px;
+    width: 100px;
+    margin-top: 10px;
+    align-self: center;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-weight: bold;
+    
+}
+
+@mixin lista-logo{
+            grid-area: lista-logo;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+}
+
+@mixin parrafo{
+    grid-area: texto;
+    text-align: center;
+    background-color: rgb(237, 237, 15);
+    border-radius: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+}
+
+@mixin img-hoteles-mobile{
+    grid-area: foto;
+                width: 90%;
+                height: 200px;
+                border: 2px solid black;
+}
+
+@mixin img-hoteles-tablet{
+    grid-area: foto;
+                width: 60%;
+                height: 200px;
+                border: 2px solid black;
+}
+
+@mixin img-hoteles-desktop{
+    grid-area: foto;
+                width: 80%;
+                height: 200px;
+                border: 2px solid black;
+}
+
+@mixin parrafo-eventos-mobile{
+    background-color: rgb(237, 237, 15);
+                    border-radius: 15px;
+                    border: 2px solid black;
+                    text-align: center;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 15px;
+                    width: 85%;
+
+}
+
+@mixin parrafo-eventos-tablet{
+    background-color: rgb(237, 237, 15);
+                    border-radius: 15px;
+                    border: 2px solid black;
+                    text-align: center;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 15px;
+                    width: 85%;
+                    margin: 30px;
+                    justify-self: center;
+    
+}
+
+@mixin parrafo-eventos-desktop{
+    background-color: rgb(237, 237, 15);
+                    border-radius: 15px;
+                    border: 2px solid black;
+                    text-align: center;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 18px;
+}

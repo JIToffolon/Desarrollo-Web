@@ -1,0 +1,312 @@
+/** Hoteles Mobile**/
+@media only screen and (min-width:0px) and (max-width:767px){
+    .hoteles {
+        display: grid;
+        grid-template-areas:
+            "h1"
+            "hotel-1"
+            "hotel-2"
+            "hotel-3"
+
+        ;
+        h1 {
+            grid-area: h1;
+            font-family: 'Playfair Display', serif;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .hotel-1 {
+            grid-area: hotel-1;
+            display: grid;
+            grid-template-areas:
+                    "texto"
+                    "foto"
+                    "Hotel-1"
+            ;
+            
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                
+               
+            }
+            img {
+                @include img-hoteles-mobile;
+        
+            }
+        }
+        .hotel-2 {
+            grid-area: hotel-2;
+            display: grid;
+            grid-template-areas:
+            "texto"
+            "foto"
+            "Hotel-2"
+            ;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                
+               
+            }
+            img {
+                @include img-hoteles-mobile;
+        
+            }
+        }
+        .hotel-3 {
+            grid-area: hotel-3;
+            display: grid;
+            grid-template-areas:
+            "texto"
+            "foto"
+            "Hotel-3"
+            ;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                
+               
+            }
+            img {
+                @include img-hoteles-mobile;
+        
+            }
+        }
+    }
+}
+/** Hoteles Tablet**/
+@media screen and (min-width: 768px){
+    .hoteles {
+        display: grid;
+        grid-template-areas:
+            "h1"
+            "hotel-1"
+            "hotel-2"
+            "hotel-3"
+
+        ;
+        h1 {
+            grid-area: h1;
+            font-family: 'Playfair Display', serif;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .hotel-1 {
+            grid-area: hotel-1;
+            display: grid;
+            grid-template-areas:
+                "foto texto h2"
+            ;
+            grid-template-columns: 45% 15% 40%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 17px;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                width: 75%;
+               
+            }
+            img {
+                @include img-hoteles-tablet;
+        
+            }
+        }
+        .hotel-2 {
+            grid-area: hotel-2;
+            display: grid;
+            grid-template-areas:
+            "foto texto h2"
+            ;
+            grid-template-columns: 45% 15% 40%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 17px;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                width: 75%;
+               
+            }
+            img {
+                @include img-hoteles-tablet;
+        
+            }
+        }
+        .hotel-3 {
+            grid-area: hotel-3;
+            display: grid;
+            grid-template-areas:
+            "foto texto h2"
+            ;
+            grid-template-columns: 45% 15% 40%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 17px;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+                width: 75%;
+               
+            }
+            img {
+                @include img-hoteles-tablet;
+        
+            }
+        }
+    }
+}
+/** Hoteles Desktop**/
+@media screen and (min-width:1024px){
+    .hoteles {
+        display: grid;
+        grid-template-areas:
+            "h1"
+            "hotel-1"
+            "hotel-2"
+            "hotel-3"
+
+        ;
+        h1 {
+            grid-area: h1;
+            font-family: 'Playfair Display', serif;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .hotel-1 {
+            grid-area: hotel-1;
+            display: grid;
+            grid-template-areas:
+                "h2 texto foto"
+            ;
+            grid-template-columns: 15% 40% 45%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 22px;
+                    
+                    
+                }
+                p {
+                   @include parrafo;
+            
+                }
+               
+            }
+            img {
+                @include img-hoteles-desktop;
+        
+            }
+        }
+        .hotel-2 {
+            grid-area: hotel-2;
+            display: grid;
+            grid-template-areas:
+                "h2 texto foto"
+            ;
+            grid-template-columns: 15% 40% 45%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 22px;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+               
+            }
+            img {
+                @include img-hoteles-desktop;
+        
+            }
+        }
+        .hotel-3 {
+            grid-area: hotel-3;
+            display: grid;
+            grid-template-areas:
+                "h2 texto foto"
+            ;
+            grid-template-columns: 15% 40% 45%;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 15px;
+            padding: 25px;
+            div{
+                h2 {
+                    grid-area: h2;
+                    font-size: 22px;
+                }
+                p {
+                    @include parrafo;
+            
+                }
+               
+            }
+            img {
+                @include img-hoteles-desktop;
+        
+            }
+        }
+    }
+}
