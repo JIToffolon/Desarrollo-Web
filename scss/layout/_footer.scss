@@ -19,16 +19,21 @@
         }
         div {
             grid-area: redes;
-            gap: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
             .logo-redes {
-                max-width: 10px;
+                max-width: 20px;
             }
     
         }
         .logo-hotel {
 
             grid-area: logo;
-            height: 45px;
+            height: 60px;
+            width: 60px;
+            padding: 10px;
 
         }
     }
@@ -55,15 +60,16 @@
         div {
 
             grid-area: redes;
-            gap: 15px;
             .logo-redes {
                 max-width: 20px;
+                margin: 10px;
             }
         }
         .logo-hotel {
             grid-area: logo;
-            height: 85px;
-            padding-left: 15px;
+            height: 60px;
+            width: 60px;
+            padding: 10px;
         }
 
     }
@@ -81,6 +87,7 @@
         align-items: center;
         background-color: $background-header-footer;
         height: 100%;
+        
         span {
             grid-area: span;
             font-size: 20px;
@@ -90,8 +97,10 @@
         }
         div{
             grid-area: redes;
+            display: flex;
+            flex-direction: row;
             a {
-                padding: 15px;
+                padding: 10px;
                 .logo-redes {
 
                     max-width: 25px;
@@ -101,8 +110,10 @@
         }
         .logo-hotel {
             grid-area: logo;
-            width: 145px;
-            height: 125px;
+            width: 82px;
+            height: 82px;
+            padding: 10px;
+            
         }
 
     }

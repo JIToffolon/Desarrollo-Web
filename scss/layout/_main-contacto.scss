@@ -3,6 +3,11 @@
     .contacto {
         display: flex;
         flex-direction: column;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1%;
+        margin: 10px;
         div{
             h2 {
                 text-align: center;
@@ -20,7 +25,7 @@
                 font-size: 12px;
                 padding: 25px;
                 text-align: center;
-                background-image: linear-gradient(to right top, #d1c86b, #d5cb70, #dace75, #ded27a, #e2d57f, #e6d17b, #e9cd77, #edc974, #f2bb6a, #f6ad63, #f99e5f, #fb8e5f);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
                 border-radius: 15px;
                 border: solid black;
                 box-shadow: #0a0a0a 5px 4.5px;
@@ -58,6 +63,11 @@
     .contacto {
         display: flex;
         flex-direction: column;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+        margin: 10px;
         div{
             h2 {
                 text-align: center;
@@ -75,7 +85,7 @@
                 font-size: 15px;
                 padding: 25px;
                 text-align: center;
-                background-image: linear-gradient(to right top, #d1c86b, #d5cb70, #dace75, #ded27a, #e2d57f, #e6d17b, #e9cd77, #edc974, #f2bb6a, #f6ad63, #f99e5f, #fb8e5f);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
                 border-radius: 15px;
                 border: solid black;
                 box-shadow: #0a0a0a 5px 4.5px;
@@ -113,6 +123,11 @@
     .contacto {
         display: flex;
         flex-direction: column;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3%;
+        margin: 10px;
         div{
             h2 {
                 text-align: center;
@@ -130,7 +145,7 @@
                 font-size: 25px;
                 padding: 25px;
                 text-align: center;
-                background-image: linear-gradient(to right top, #d1c86b, #d5cb70, #dace75, #ded27a, #e2d57f, #e6d17b, #e9cd77, #edc974, #f2bb6a, #f6ad63, #f99e5f, #fb8e5f);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
                 border-radius: 15px;
                 border: solid black;
                 box-shadow: #0a0a0a 5px 4.5px;

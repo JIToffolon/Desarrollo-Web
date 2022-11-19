@@ -9,6 +9,12 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         justify-items: center;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1%;
+        margin: 10px;
+        padding: 20px;
         h1 {
 
             grid-area: h1;
@@ -21,13 +27,20 @@
         }
     }
     .fotos {
-        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        padding: 0% 5% 0% 5%;
+
+       
         img {
 
-            width: 100%;
+            width:200px;
+            height: 150px;
             border: 1px solid black;
+            margin: 2%;
+            
         }
     }
 }
@@ -43,10 +56,16 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
+    background-image: url("../assets/img/banners/banner-acuarela.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 3%;
+    
     h1 {
 
         grid-area: h1;
-        padding: 10px;
+        padding: 45px;
 
 
     }
@@ -57,9 +76,11 @@
             "galeria-1 galeria-2"
             "galeria-3 galeria-4"
             "galeria-5 galeria-6"
+            "galeria-7 galeria-8"
+            "galeria-9 galeria-10"
         ;
-        grid-gap: 10px;
-        margin-bottom: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         justify-items: center;
 
     }
@@ -89,15 +110,28 @@
 .galeria-6 {
     grid-area: galeria-6;
 }
+.galeria-7 {
+    grid-area: galeria-7;
+}
+.galeria-8 {
+    grid-area: galeria-8;
+}
+.galeria-9 {
+    grid-area: galeria-9;
+}
+.galeria-10 {
+    grid-area: galeria-10;
+}
 .fotos {
     justify-self: center;
     width: 100%;
-    padding: 0% 5% 0% 5%;
     img {
 
-        max-width: 300px;
-        max-height: 200px;
+        width: 300px;
+        height: 200px;
         border: 1px solid black;
+        margin: 4%;
+        margin-bottom: 10%;
 
 
     }
@@ -124,6 +158,11 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         justify-items: center;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 10px;
+        border-radius: 3%;
         h1 {
 
             grid-area: h1;
@@ -139,8 +178,11 @@
             grid-area: picture;
             display: grid;
             grid-template-areas:
-                "galeria-1 galeria-2 galeria-3"
-                "galeria-4 galeria-5 galeria-6"
+            "galeria-1 galeria-2"
+            "galeria-3 galeria-4"
+            "galeria-5 galeria-6"
+            "galeria-7 galeria-8"
+            "galeria-9 galeria-10"
             ;
             grid-gap: 25px;
             margin-bottom: 25px;
@@ -154,7 +196,7 @@
 
     .galeria-2 {
         grid-area: galeria-2;
-        width: 100%;
+        
     }
 
     .galeria-3 {
@@ -172,15 +214,30 @@
     .galeria-6 {
         grid-area: galeria-6;
     }
+    .galeria-7 {
+        grid-area: galeria-7;
+    }
+    .galeria-8 {
+        grid-area: galeria-8;
+    }
+    .galeria-9 {
+        grid-area: galeria-9;
+    }
+    .galeria-10 {
+        grid-area: galeria-10;
+    }
+
     .fotos {
         justify-self: center;
         width: 100%;
         padding: 0% 5% 0% 5%;
         img {
 
-            max-width: 300px;
-            max-height: 200px;
+            width: 400px;
+            height: 300px;
             border: 1px solid black;
+            margin: 8%;
+            margin-bottom: 10%;
     
         }
         img:hover {
@@ -189,7 +246,7 @@
             -webkit-transform: scale(1.07);
             transform: scale(1.07);
             max-width: 100%;
-            border: rgba(5, 3, 3, 0.521) solid 5px;
+            border: rgb(5, 3, 3) solid 5px;
             padding: 0px;
         }
     }

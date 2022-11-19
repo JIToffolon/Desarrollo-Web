@@ -9,7 +9,90 @@
            
         }
     }
+    .section-4{
+        .habitacion-1{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+                    
+    
+                }
+            }
+
+        }
+        .habitacion-2{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+        .habitacion-3{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+       
+    }
+       .hotel-1 {
+        
+        div{
+           
+            a{
+                
+                button{
+                @include boton2;
+                }
+
+            }
+            
+        }
+    
 }
+.hotel-3 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
+.hotel-2 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
+}
+
 /** Sobre Nosotros Boton Tablet**/
 @media screen and (min-width: 768px){
     .contacto{
@@ -20,6 +103,88 @@
             }
         }
     }
+    .section-4{
+        .habitacion-1{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+                    
+    
+                }
+            }
+
+        }
+        .habitacion-2{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+        .habitacion-3{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+       
+    }
+    .hotel-1 {
+        
+        div{
+           
+            a{
+                
+                button{
+                @include boton2;
+                }
+
+            }
+            
+        }
+    
+}
+.hotel-3 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
+.hotel-2 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
 }
 /** Sobre Nosotros Boton Desktop**/
 @media screen and (min-width:1024px){
@@ -31,4 +196,87 @@
             }
         }
     }
+    .section-4{
+        .habitacion-1{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+                    
+    
+                }
+            }
+
+        }
+        .habitacion-2{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+        .habitacion-3{
+            div{
+                a{
+                    button{
+                        @include boton2;
+                    }
+    
+                }
+            }
+
+        }
+       
+    }
+    .hotel-1 {
+        
+        div{
+           
+            a{
+                
+                button{
+                @include boton2;
+                }
+
+            }
+            
+        }
+    
 }
+.hotel-3 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
+.hotel-2 {
+        
+    div{
+       
+        a{
+            
+            button{
+            @include boton2;
+            }
+
+        }
+        
+    }
+
+}
+} 
+ 

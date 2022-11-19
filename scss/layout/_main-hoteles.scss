@@ -9,6 +9,11 @@
             "hotel-3"
 
         ;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1%;
+        margin: 10px;
         h1 {
             grid-area: h1;
             font-family: 'Playfair Display', serif;
@@ -30,18 +35,32 @@
             grid-gap: 15px;
             padding: 25px;
             div{
+                
                 h2 {
                     grid-area: h2;
                 }
+            
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
+                }
+                a{
+                    align-self: center;
+                    margin: 2%;
+                   
+
                 }
                 
-               
             }
             img {
                 @include img-hoteles-mobile;
+                width: 250px;
+                height: 300px;
         
             }
         }
@@ -61,15 +80,27 @@
                 h2 {
                     grid-area: h2;
                 }
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
+                }
+                a{
+                    align-self: center;
+                    margin: 2%;
+                   
+
                 }
                 
-               
             }
             img {
                 @include img-hoteles-mobile;
+                width: 250px;
+                height: 300px;
         
             }
         }
@@ -88,16 +119,30 @@
             div{
                 h2 {
                     grid-area: h2;
+                    text-align: center;
                 }
+               
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
+                }
+                a{
+                    align-self: center;
+                    margin: 2%;
+                   
+
                 }
                 
-               
             }
             img {
                 @include img-hoteles-mobile;
+                width: 250px;
+                height: 300px;
         
             }
         }
@@ -114,6 +159,11 @@
             "hotel-3"
 
         ;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+        margin: 10px;
         h1 {
             grid-area: h1;
             font-family: 'Playfair Display', serif;
@@ -127,25 +177,42 @@
             grid-template-areas:
                 "foto texto h2"
             ;
-            grid-template-columns: 45% 15% 40%;
+            grid-template-columns: 1fr 0.5fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 25px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 17px;
+                    font-size: 25px;
+                    text-align: center;
                 }
+                
+                width: 100%;
+               
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
                 }
-                width: 75%;
-               
+                a{
+                    align-self: center;
+                    margin: 2%;
+                   
+
+                }
+                
             }
             img {
                 @include img-hoteles-tablet;
+                width: 200px;
+                height: 300px;
         
             }
         }
@@ -153,27 +220,43 @@
             grid-area: hotel-2;
             display: grid;
             grid-template-areas:
-            "foto texto h2"
+            "foto h2 texto "
             ;
-            grid-template-columns: 45% 15% 40%;
+            grid-template-columns: 1fr 0.5fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 25px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 17px;
+                    font-size: 25px;
                 }
+               
+                width: 100%;
+               
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
                 }
-                width: 75%;
-               
+                a{
+                    align-self: center;
+                    margin: 2%;
+                   
+
+                }
+                
             }
             img {
                 @include img-hoteles-tablet;
+                width: 200px;
+                height: 300px;
         
             }
         }
@@ -183,25 +266,41 @@
             grid-template-areas:
             "foto texto h2"
             ;
-            grid-template-columns: 45% 15% 40%;
+            grid-template-columns: 1fr 0.5fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 25px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 17px;
+                    font-size: 25px;
                 }
+               
+                width: 100%;
+               
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
                 }
-                width: 75%;
-               
+                a{
+                    align-self: center;
+                    margin: 2%;
+                  
+
+                }
+                
             }
             img {
                 @include img-hoteles-tablet;
+                width: 200px;
+                height: 300px;
         
             }
         }
@@ -218,6 +317,11 @@
             "hotel-3"
 
         ;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3%;
+        margin: 10px;
         h1 {
             grid-area: h1;
             font-family: 'Playfair Display', serif;
@@ -231,26 +335,41 @@
             grid-template-areas:
                 "h2 texto foto"
             ;
-            grid-template-columns: 15% 40% 45%;
+            grid-template-columns: 0.5fr 1fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 35px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 22px;
+                    font-size: 35px;
                     
                     
-                }
-                p {
-                   @include parrafo;
-            
                 }
                
             }
+            div{
+                display: flex;
+                flex-direction: column;
+                
+                p {
+                    @include parrafo;
+             
+                }
+                a{
+                    align-self: center;
+                    margin: 5%;
+                  
+
+                }
+                
+            }
             img {
                 @include img-hoteles-desktop;
+                width:400px ;
+                height: 500px;
         
             }
         }
@@ -260,24 +379,40 @@
             grid-template-areas:
                 "h2 texto foto"
             ;
-            grid-template-columns: 15% 40% 45%;
+            grid-template-columns: 0.5fr 1fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 35px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 22px;
-                }
-                p {
-                    @include parrafo;
-            
+                    font-size: 35px;
                 }
                
             }
+            div{
+                display: flex;
+                flex-direction: column;
+                
+                p {
+                    @include parrafo;
+             
+                }
+                a{
+                    align-self: center;
+                    margin: 5%;
+                   
+
+                }
+                
+            }
             img {
                 @include img-hoteles-desktop;
+                width:400px ;
+                height: 500px;
+        
         
             }
         }
@@ -287,24 +422,40 @@
             grid-template-areas:
                 "h2 texto foto"
             ;
-            grid-template-columns: 15% 40% 45%;
+            grid-template-columns:0.5fr 1fr 1fr;
             justify-items: center;
             align-items: center;
             grid-gap: 15px;
             padding: 25px;
+            margin: 35px;
             div{
                 h2 {
                     grid-area: h2;
-                    font-size: 22px;
+                    font-size: 35px;
                 }
+                
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                
                 p {
                     @include parrafo;
-            
+             
                 }
-               
+                a{
+                    align-self: center;
+                    margin: 5%;
+                    
+
+                }
+                
             }
             img {
                 @include img-hoteles-desktop;
+                width:400px ;
+                height: 500px;
+        
         
             }
         }

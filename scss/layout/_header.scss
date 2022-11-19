@@ -17,6 +17,7 @@
         }
         .logo-hotel {
             height: 45px;
+            margin: 10px;
         }
         .banner {
             grid-area: banner;
@@ -24,7 +25,7 @@
                 display: flex;
                 align-content: flex-end;
                 width: 100%;
-                height: 25px;
+                height: 45px;
             }
         }
         .lista-header {
@@ -109,7 +110,7 @@
             "banner"
         ;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
         background-color: $background-header-footer;
         max-width: 100vw;
         .lista-logo {
@@ -120,8 +121,8 @@
             .logo-hotel {
                 display: flex;
                 flex-direction: row;
-                width: 145px;
-                height: 145px;
+                width: 82px;
+                height: 82px;
         
             }
         }
@@ -131,7 +132,8 @@
             img {
 
                 width: 100%;
-                height: 100px;
+                height: 150px;
+                
         
             }
         }

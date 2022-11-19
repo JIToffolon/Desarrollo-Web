@@ -10,6 +10,11 @@
 
         ;
         row-gap: 30px;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 10px;
+        border-radius: 1%;
         h1 {
             grid-area: h1;
             font-size: 25px;
@@ -26,6 +31,7 @@
     
             ;
             row-gap: 15px;
+            margin: 5%;
             .box-1 {
                 grid-area: box-1;
                 text-align: center;
@@ -56,7 +62,7 @@
                 justify-content: center;
                 img {
                     border: 2px solid black;
-                    width: 85%;
+                    width: 75%;
                     
                 }
         
@@ -72,6 +78,7 @@
     
             ;
             row-gap: 15px;
+            margin: 5%;
             .box-1 {
                 grid-area: box-1;
                 text-align: center;
@@ -103,7 +110,7 @@
                 justify-content: center;
                 img {
                     border: 2px solid black;
-                    width: 85%;
+                    width: 75%;
                     
                 }
         
@@ -119,6 +126,7 @@
     
             ;
             row-gap: 15px;
+            margin: 5%;
             .box-1 {
                 grid-area: box-1;
                 text-align: center;
@@ -137,6 +145,7 @@
                 display: flex;
                 justify-content: center;
                 margin-bottom: 40px;
+                
                  
                 p {
                     @include parrafo-eventos-mobile;
@@ -150,7 +159,7 @@
                 justify-content: center;
                 img {
                     border: 2px solid black;
-                    width: 85%;
+                    width: 75%;
                     
                 }
         
@@ -171,11 +180,17 @@
 
         ;
         row-gap: 30px;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+        margin: 10px;
         h1 {
             grid-area: h1;
             font-size: 45px;
             text-align: center;
             padding: 20px;
+            align-self: center;
         }
         .evento-1 {
             grid-area: evento-1;
@@ -186,17 +201,22 @@
                 "box-3 box-2"
     
             ;
-            grid-template-columns: 60% 40%;
-            grid-template-rows: 20% 80%;
-            row-gap: 15px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
+            margin: 10%;
             .box-1 {
                 grid-area: box-1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 
                 h2 {
                     font-weight: bold;
                     color: black;
-                    font-size: 35px;
+                    font-size: 25px;
+                    margin-bottom: 10%;
+                    
                     
                 }
         
@@ -212,12 +232,14 @@
             }
             .box-3 {
                 grid-area: box-3;
-                width: 100%;
-                margin: 30px;
+                display: flex;
+                justify-content: center;
+                
                 img {
                     border: 2px solid black;
-                    width: 85%;
-                    justify-self: center;
+                    width: 300px;
+                    height: 400px;
+               
                 }
         
             }
@@ -231,16 +253,18 @@
                 "box-2 box-3"
     
             ;
-            grid-template-columns: 40% 60%;
-            grid-template-rows: 20% 80%;
-            row-gap: 15px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
+            margin: 10%;
+            
             .box-1 {
                 grid-area: box-1;
                 
                 h2 {
                     font-weight: bold;
                     color: black;
-                    font-size: 35px;
+                    font-size: 25px;
+                    margin-bottom: 10%;
                     
                 }
         
@@ -256,16 +280,14 @@
             }
             .box-3 {
                 grid-area: box-3;
-                width: 80%;
-                margin-left: 40px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 img {
                     border: 2px solid black;
-                    width: 100%;
-                    
-                    
+                    width: 300px;
+                    height: 400px;
+              
                 }
         
             }
@@ -279,16 +301,18 @@
                 "box-3 box-2"
     
             ;
-            grid-template-columns: 60% 40%;
-            grid-template-rows: 20% 80%;
-            row-gap: 15px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
+            margin-bottom: 35px;
+            margin: 10%;
             .box-1 {
                 grid-area: box-1;
                 
                 h2 {
                     font-weight: bold;
                     color: black;
-                    font-size: 35px;
+                    font-size: 25px;
+                    margin-bottom: 10%;
                     
                 }
         
@@ -304,13 +328,15 @@
             }
             .box-3 {
                 grid-area: box-3;
-                width: 100%;
-                margin: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
                 img {
                     border: 2px solid black;
-                    width: 85%;
-                    justify-self: center;
-                    margin-bottom: 50px;
+                    width: 300px;
+                    height: 400px;
+                    
                 }
         
             }
@@ -328,6 +354,11 @@
             "evento-3"
 
         ;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3%;
+        margin: 10px;
         h1 {
             grid-area: h1;
             font-size: 65px;
@@ -343,9 +374,8 @@
                 "box-2 box-3 box-3"
     
             ;
-            grid-gap: 20px;
-            grid-template-columns: 40% 40% auto;
-            grid-template-rows: auto 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
             .box-1 {
                 grid-area: box-1;
                 padding: 20px;
@@ -353,6 +383,7 @@
                     font-weight: bold;
                     color: black;
                     font-size: 35px;
+                    margin-bottom: 10%;
                 }
         
             }
@@ -360,8 +391,6 @@
                 grid-area: box-2;
                 justify-self: center;
                 align-self: center;
-                padding: 10px;
-                padding-left: 45px;
                 p {
                     @include parrafo-eventos-desktop;
                 }
@@ -380,29 +409,26 @@
             grid-area: evento-2;
             display: grid;
             grid-template-areas:
-                "box-1 box-1 box-1"
-                "box-3 box-3 box-2"
-                "box-3 box-3 box-2"
+            "box-1 box-1 box-1"
+            "box-2 box-3 box-3"
+            "box-2 box-3 box-3"
     
             ;
-            grid-gap: 20px;
-            grid-template-columns: auto 40% 40%;
-            grid-template-rows: auto 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
             .box-1 {
                 grid-area: box-1;
-                padding: 20px;
                 h2 {
                     font-weight: bold;
                     color: black;
                     font-size: 35px;
+                    margin-bottom: 10%;
                 }
             }
             .box-2 {
                 grid-area: box-2;
                 justify-self: center;
                 align-self: center;
-                padding: 10px;
-                padding-right: 100px;
                 p {
                     @include parrafo-eventos-desktop;
                 }
@@ -411,9 +437,9 @@
                 grid-area: box-3;
                 justify-items: center;
                 align-self: center;
-                height: 350px;
+                
                 img {
-                    height: 100%;
+                    
                     border: 2px solid black;
                     
                 }
@@ -431,10 +457,8 @@
                 "box-2 box-3 box-3"
     
             ;
-            grid-gap: 20px;
-            grid-template-columns: 40% 40% auto;
-            grid-template-rows: auto 1fr 1fr;
-            padding-bottom: 25px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
             .box-1 {
                 grid-area: box-1;
                 padding: 20px;
@@ -442,6 +466,7 @@
                     font-weight: bold;
                     color: black;
                     font-size: 35px;
+                    margin-bottom: 10%;
             
                 }
             }
@@ -449,8 +474,6 @@
                 grid-area: box-2;
                 justify-self: center;
                 align-self: center;
-                padding: 10px;
-                padding-left: 45px;
                 p {
                     @include parrafo-eventos-desktop;
                 }

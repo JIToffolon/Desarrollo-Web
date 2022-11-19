@@ -5,56 +5,59 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1%;
+        margin: 10px;
         h1 {
             font-weight: bolder;
             font-size: 25px;
             padding: 25px;
         }
-        .about-1 {
-            width: 80%;
-            align-self: center;
-            text-align: justify;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            padding: 25px;
-            margin: 15px;
-            h2 {
-                padding: 15px;
-                text-align: center;
-                font-size: 15px;
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .about-texto{
+                width: 80%;
+                align-self: center;
+                text-align: justify;
+                box-shadow: rgb(20, 20, 20) 5px 4.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
+                padding: 25px;
+                margin: 15px;
+                h2 {
+                    padding: 15px;
+                    text-align: center;
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: black;
+            
+                }
+
             }
-            p {
-                font-size: 12px;
-                font-weight: bold;
-                color: black;
-        
+            .img-about{
+                width: 200px;
+                height: 150px;
+                margin: 5%;
+                border-radius: 3%;
+                box-shadow: rgb(20, 20, 20) 1px 2.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                
             }
+           
         }
-        .about-2 {
-            width: 80%;
-            align-self: center;
-            text-align: justify;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            padding: 20px;
-            margin: 25px;
-            h2 {
-                padding: 15px;
-                text-align: center;
-                font-size: 15px;
-            }
-            p {
-                font-size: 12px;
-                font-weight: bold;
-                color: black;
+
         
-            }
-    
-        }
+        
     
     }
 }
@@ -62,56 +65,58 @@
 @media screen and (min-width: 768px){
     .about-us {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-image: url("../assets/img/banners/banner-acuarela.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+        margin: 10px;
         h1 {
             font-weight: bolder;
             font-size: 25px;
             padding: 25px;
         }
-        .about-1 {
-            width: 60%;
-            align-self: center;
-            text-align: justify;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            padding: 25px;
-            margin: 15px;
-            h2 {
-                padding: 15px;
-                text-align: center;
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .about-texto{
+                width: 80%;
+                align-self: center;
+                text-align: justify;
+                box-shadow: rgb(20, 20, 20) 5px 4.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
+                padding: 25px;
+                margin: 15px;
+                h2 {
+                    padding: 15px;
+                    text-align: center;
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: black;
+            
+                }
+
             }
-            p {
-                font-size: 12px;
-                font-weight: bold;
-                color: black;
-        
+            .img-about{
+                width: 300px;
+                height: 200px;
+                margin: 5%;
+                border-radius: 3%;
+                box-shadow: rgb(20, 20, 20) 1px 2.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                
             }
-        }
-        .about-2 {
-            width: 60%;
-            align-self: center;
-            text-align: justify;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            padding: 20px;
-            margin: 10px;
-            h2 {
-                padding: 15px;
-                text-align: center;
-            }
-            p {
-                font-size: 12px;
-                font-weight: bold;
-                color: black;
-        
-            }
-    
+           
         }
     
     }
@@ -127,53 +132,47 @@
             font-weight: bolder;
             font-size: 45px;
             padding: 25px;
+            margin: 30px;
         }
-        .about-1 {
-            width: 60%;
-            align-self: flex-start;
-            padding: 35px;
-            text-align: justify;
-            margin: 0 15px 35px 0;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            margin-left: 45px;
-            h2 {
-                padding: 15px;
-                text-align: center;
-            }
-            p {
-                font-size: 20px;
-                font-weight: bold;
-                color: black;
-        
-            }
+        .about {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .about-texto{
+                width: 80%;
+                align-self: center;
+                text-align: justify;
+                box-shadow: rgb(20, 20, 20) 5px 4.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                background-image: linear-gradient(to right top, #f9fbfb, #ddf3f4, #c0ecef, #a1e3eb, #7edbe8, #63d3ea, #42cbed, #00c2f0, #00b7f7, #00aafc, #009cfe, #438cfb);
+                padding: 25px;
+                margin: 15px;
+                h2 {
+                    padding: 15px;
+                    text-align: center;
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: black;
+            
+                }
 
-        }
-        
-        .about-2 {
-            width: 60%;
-            align-self: flex-end;
-            padding: 25px;
-            margin: 0 15px 25px 0;
-            text-align: justify;
-            box-shadow: rgb(20, 20, 20) 5px 4.5px;
-            border-radius: 15px;
-            border: solid 3px rgb(20, 20, 20);
-            background-color: rgb(239, 126, 65);
-            margin-right: 45px;
-            h2 {
-                padding: 15px;
-                text-align: center;
             }
-            p {
-                font-size: 20px;
-                font-weight: bold;
-                color: black;
-        
+            .img-about{
+                width: 350px;
+                height: 250px;
+                margin: 5%;
+                border-radius: 3%;
+                box-shadow: rgb(20, 20, 20) 1px 2.5px;
+                border-radius: 15px;
+                border: solid 3px rgb(20, 20, 20);
+                
             }
-    
+           
         }
     
     }
